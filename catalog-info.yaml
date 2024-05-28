@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "abc"
+  description: "abc"
+  annotations:
+    github.com/project-slug: abc123/abc123
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/cpto"
